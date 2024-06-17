@@ -17,7 +17,7 @@ translate([-85.476919005-100, 74.75505])
 	linear_extrude(height = 1.5) botoutside();
 
 translate([-85.473227455, -74.755, 3]) 
-	import("/home/nelson/ringo/MAKERphone_border.stl");
+	import("MAKERphone_border.stl");
 
 module topface() {
 difference() {
